@@ -1,6 +1,119 @@
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello, World!");
+        System.out.println("Задача№1");
+        int a = 4000;
+        byte b = 22;
+        float c = 3.75f;
+        short d = 25645;
+        long i = 9233567899L;
+        double f = -1.7E+308;
+        System.out.println("Значение переменной a с типом Целочисленныеравно " + a);
+        System.out.println("Значение переменной b с типом Целочисленныеравно " + b);
+        System.out.println("Значение переменной c с типом Целочисленныеравно " + c);
+        System.out.println("Значение переменной d с типом Целочисленныеравно " + d);
+        System.out.println("Значение переменной i с типом Целочисленныеравно " + i);
+        System.out.println("Значение переменной f с типом Целочисленныеравно " + f);
+        System.out.println("Задача№2");
+        float m = 27.12f;
+        long v = 987678965549L;
+        double x = 2.786;
+        short k = 569;
+        int t = - 259;
+        int p = 27897;
+        byte u = 67;
+        System.out.println(m);
+        System.out.println(v);
+        System.out.println(x);
+        System.out.println(k);
+        System.out.println(t);
+        System.out.println(p);
+        System.out.println(u);
+        System.out.println("Задача№3");
+        int classLP = 23;
+        int classAS = 27;
+        int classEA = 30;
+        int numberStudents = (classLP + classAS + classEA);
+        int students = 480;
+        int paperStudents = students / numberStudents;
+        System.out.println("На каждого ученика расчитано " + paperStudents + " листов бумаги.");
+        System.out.println("Задача#4");
+        int time = 2;
+        int bottle = 16;
+        int bottleInMinute = bottle / time;
+        int day = 24 * 60;
+        int dayWeight =  bottleInMinute * day;
+        int for3days = day * 3;
+        int day2Weight =  bottleInMinute * for3days;
+        int month =  day * 30;
+        int monthWeight = bottleInMinute * month;
+        time = 20;
+        bottle = bottleInMinute * time;
+        System.out.println("За " + time + " минут машина произвела " + bottle + " штук бутылок");
+        System.out.println(" За " +  " сутки машина произвела " + dayWeight + " штук бутылок ");
+        System.out.println(" За " + " 3 дня машина произвела " + day2Weight + " штук бутылок");
+        System.out.println(" За" + " месяц машина произвела " + monthWeight + " штук бутылок");
+        System.out.println("Задача№5");
+        byte totalPots = 120;
+        byte whiteColorPotPerClass = 2;
+        byte brownColorPotPerClass = 4;
+        byte totalPotsPerClass = (byte) (whiteColorPotPerClass + brownColorPotPerClass); // считаем сколько всего банок краски на класс
+        short totalClasses = (short) (totalPots / totalPotsPerClass); // считаем на сколько классов будет потрачена краска
+        byte totalWhiteColorPots = (byte) (whiteColorPotPerClass * totalClasses); // считаем количество банок белой краски
+        byte totalBrownColorPots = (byte) (brownColorPotPerClass * totalClasses); // считаем количество банок коричневой краски
+        System.out.println("В школе, где " + totalClasses + " классов, нужно " + totalWhiteColorPots + " банок белой краски и " + totalBrownColorPots + " банок коричневой краски");
+        System.out.println("Задача№6");
+        byte  bananas = 5;
+        int milk = 200;
+        byte iceCream = 2;
+        byte eggs = 4;
+        byte oneBananasWeight = 80;
+        byte milkWeight = 105;
+        byte oneIceCreamWeight = 100;
+        byte oneEggsWeight = 70;
+        System.out.println(" вес одного банана = " + oneBananasWeight + " грамм ");
+        System.out.println(" 100 мл молока = "  + milkWeight + " грамм ");
+        System.out.println(" 1 брикет мороженого = " + oneIceCreamWeight + " грамм ");
+        System.out.println(" вес 1 яйца = " + oneEggsWeight + " грамм ");
+        int weightProducts = (oneBananasWeight * bananas) + (milkWeight * milk) + (oneIceCreamWeight * iceCream) + (oneEggsWeight * eggs);
+        System.out.println(" общий вес завтрака составляет " + weightProducts + " грамм");
+        float weightKilogramms = (float) (weightProducts /1000.0);
+        System.out.println(" общий вес составляет " + weightKilogramms + " кг");
+        System.out.println(" Задача№7");
+        short needLost = 7000;
+        short inDay = 250;
+        short inDay2 = 500;
+        int result = needLost/inDay;
+        int result2 = needLost/inDay2;
+        System.out.println(result + " дней, если спортсмен будет терять каждый день по 250 грамм ");
+        System.out.println(result2 + " дней, если спортсмен будет терять каждый день по 500 грамм");
+        int result3 = (result + result2)/2;
+        System.out.println(result3 + " дней, в среднем потребуется, чтобы добиться результата похудения");
+        System.out.println(" Задача№8");
+        int zpMasha = 67760; // текущая зп Маши
+        int zpDenis = 83690; // текущая зп Дениса
+        int zpKristina = 76230; // текущая зп Кристины
+        byte zpPercentIncrease = 10; // процент на который производится повышение зп
+        int zpMashaIncrease = zpMasha * zpPercentIncrease / 100; // вычисляем насколько увеличится зп Маши
+        int zpDenisIncrease = zpDenis * zpPercentIncrease / 100; // вычисляем насколько увеличится зп Дениса
+        int zpKristinaIncrease = zpKristina * zpPercentIncrease / 100; // вычисляем насколько увеличится зп Кристины
+        int newZpMasha = zpMasha + zpMashaIncrease; // новая зп Маши
+        int newZpDenis = zpDenis + zpDenisIncrease; // новая зп Дениса
+        int newZpKristina = zpKristina + zpKristinaIncrease; // новая зп Кристины
+        int monthPerYear = 12;
+        int zpMashaYearBefore = zpMasha * monthPerYear; // вычисляем годовой доход Маши до повышения
+        int zpMashaYearAfter = newZpMasha * monthPerYear; // вычисляем годовой доход Маши после повышения
+        int zpDenisYearBefore = zpDenis * monthPerYear; // вычисляем годовой доход Дениса до повышения
+        int zpDenisYearAfter = newZpDenis * monthPerYear; // вычисляем годовой доход Дениса после повышения
+        int zpKristinaYearBefore = zpKristina * monthPerYear; // вычисляем годовой доход Кристины до повышения
+        int zpKristinaYearAfter = newZpKristina * monthPerYear; // вычисляем годовой доход Кристины после повышения
+        int zpMashaYearDiff = zpMashaYearAfter - zpMashaYearBefore; // вычисляем разницу в доходе Маши
+        int zpDenisYearDiff = zpDenisYearAfter - zpDenisYearBefore; // вычисляем разницу в доходе Дениса
+        int zpKristinaYearDiff = zpKristinaYearAfter - zpKristinaYearBefore; // вычисляем разницу в доходе Кристины
+        System.out.println("Маша раньше получала " + zpMasha + " рублей, а теперь получает " + newZpMasha + " рублей. Ее годовой доход вырос на " + zpMashaYearDiff + " рублей!");
+        System.out.println("Денис раньше получал " + zpDenis + " рублей, а теперь получает " + newZpDenis + " рублей. Его годовой доход вырос на " + zpDenisYearDiff + " рублей!");
+        System.out.println("Кристина раньше получала " + zpKristina + " рублей, а теперь получает " + newZpKristina + " рублей. Ее годовой доход вырос на " + zpKristinaYearDiff + " рублей!");
+
 
     }
 }

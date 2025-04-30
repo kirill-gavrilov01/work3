@@ -1,7 +1,6 @@
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello, World!");
-
         System.out.println("Задача№1");
         int a = 4000;
         byte b = 22;
@@ -114,5 +113,7 @@ public class Main {
         System.out.println("Маша раньше получала " + zpMasha + " рублей, а теперь получает " + newZpMasha + " рублей. Ее годовой доход вырос на " + zpMashaYearDiff + " рублей!");
         System.out.println("Денис раньше получал " + zpDenis + " рублей, а теперь получает " + newZpDenis + " рублей. Его годовой доход вырос на " + zpDenisYearDiff + " рублей!");
         System.out.println("Кристина раньше получала " + zpKristina + " рублей, а теперь получает " + newZpKristina + " рублей. Ее годовой доход вырос на " + zpKristinaYearDiff + " рублей!");
+
+
     }
 }

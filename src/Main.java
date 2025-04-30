@@ -34,7 +34,7 @@ public class Main {
         int classLP = 23;
         int classAS = 27;
         int classEA = 30;
-        int numberStudents = (int) (classLP + classAS + classEA);
+        int numberStudents = classLP + classAS + classEA;
         int students = 480;
         int paperStudents = students / numberStudents;
         System.out.println("На каждого ученика расчитано " + paperStudents + " листов бумаги.");
